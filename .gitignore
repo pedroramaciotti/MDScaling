@@ -28,6 +28,7 @@ share/python-wheels/
 MANIFEST
 local_data/
 local_tests/
+local_figures/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -129,3 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# DS_Store
+.DS_Store
