@@ -26,9 +26,13 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Personal folder used to manage package info and testing
 local_data/
 local_tests/
 local_figures/
+local_logo/
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

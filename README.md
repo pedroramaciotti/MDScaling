@@ -1,4 +1,4 @@
-# MDScaling
-Multi-Dimensional Network Scaling with time-windowing 
+![logo](https://raw.githubusercontent.com/pedroramaciotti/MDScaling/master/docs/logo.png)
 
-This is software project is in progress...
+## MDScaling
+
