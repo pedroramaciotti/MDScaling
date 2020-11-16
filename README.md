@@ -17,6 +17,9 @@ A python module for the multi-dimensional scaling of networks. MDScaling takes t
 This is the module's main application. It allows for the embeddings/scaling of directed bipartite graphs, for a range of *methods*, a range of *parameters*, and the computation of comparison metrics for the *methods* x *parameters* space.
 
 
+![logo](https://raw.githubusercontent.com/pedroramaciotti/MDScaling/master/datasets/twitter_chile.png)![logo](https://raw.githubusercontent.com/pedroramaciotti/MDScaling/master/datasets/twitter_france.png)
+
+
 ### Other Networks
 
 This is work in progress...
