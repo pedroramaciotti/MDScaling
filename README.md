@@ -2,6 +2,8 @@
 
 ## MDScaling
 
+Multi-dimensional network scaling for python.
+
 A python module for the multi-dimensional scaling of networks. MDScaling takes topological data (a network of connected nodes) an produces a multi-dimensional embedding in a geometrical space where distance is related to topological similarity.
 
 **Cite us:**

@@ -37,7 +37,6 @@ for country in ['chile','france']:
     g.ax_joint.set_ylim((-3,3))
     plt.tight_layout()
     plt.savefig('datasets/twitter_%s.pdf'%country)
-    plt.savefig('datasets/twitter_%s.png'%country)
     plt.clf()
     plt.close()
 
