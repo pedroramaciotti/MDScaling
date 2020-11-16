@@ -33,6 +33,9 @@ local_tests/
 local_figures/
 local_logo/
 
+# a file for bechworking 
+dev_test.py
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
