@@ -30,7 +30,7 @@ For example, the first 5 lines of `dataset/twitter_france.csv` read
 
 defining 5 edges, connecting bottom nodes (Twitter followers) B0, B1, B2, B3, and B4 with top node A591 (a parliamentarian).
 
-Quick start using datasets from the `dataset`folder as
+**Quick start** using datasets from the `dataset`folder as
 
     import mdscaling as mds
     DB = mds.DiBipartite('local_data/twitter_france.csv') # read the French MPs-followers bipartite graph
