@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # scaling methods
-from mdscaling.bipartite_scaling.factor_analysis import *
+from .bipartite_scaling.factor_analysis import *
 
 
 class DiBipartite():
