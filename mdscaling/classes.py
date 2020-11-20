@@ -32,10 +32,14 @@ class DiBipartite():
 	info = []
 	embedding = []
 
-	def __init__(self,filename):
+	def __init__(self,filename,header=None,order=['bottom','top'],force_disjoint=True):
 
 		# Loading the list of edges
-		df = pd.read_csv(filename,header=None,names=['bottom','top'],dtype={'bottom':'str','top':'str'})
+		df = pd.read_csv(filename,header=header,names=order,dtype={'bottom':'str','top':'str'})
+
+		#
+		if force_disjoint:
+			df=df[~df['bottom'].isin(df['top'].unique())]
 
 		# Checks
 		if df.shape[0] == 0:
