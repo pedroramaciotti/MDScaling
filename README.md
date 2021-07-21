@@ -51,3 +51,7 @@ The following two figures show embeddings produced for the Chilean and French Tw
 ### Other Networks
 
 This is work in progress...
+
+### Acknowledgements
+
+This  work  has  been  partially funded  by the  French  National  Agency  for  Research under grant ANR-19-CE38-0006 "Geometry of Public Issues" (GOPI).
